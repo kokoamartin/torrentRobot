@@ -33,7 +33,7 @@
     },
     "MAGNET_TIMEOUT": {
       "description": "Magnet TimeOut ( in seconds )",
-      "value": "300"
+      "value": "300",
       "required": false
     },
     "LEECH_TIMEOUT": {
