@@ -1,0 +1,54 @@
+{
+  "name": "Telegram TorrentDl Bot",
+  "description": "Telegram bot to download Torrents and upload them to Telegram . ",
+  "keywords": [
+    "telegram",
+    "torrent",
+    "magnet",
+    "upload"
+  ],
+  "repository": "https://github.com/bhardwajjEE/torrentRobot",
+  "success_url": "https://github.com/bhardwajjEE/torrentRobot",
+  "website": "https://github.com/bhardwajjEE/torrentRobot",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "get this value from @BotFather",
+      "value": ""
+    },
+    "EVERYONE_CHATS": {
+      "description": "...Tic Tic",
+      "value": ""
+    },
+    "ADMIN_CHATS": {
+      "description": "Owner Telegram Chat-IDs",
+      "value": ""
+    },
+    "MAGNET_TIMEOUT": {
+      "description": "Magnet TimeOut ( in seconds )",
+      "value": "300"
+      "required": false
+    },
+    "LEECH_TIMEOUT": {
+      "description": "Leech Timeout ( in seconds )",
+      "value": "300",
+      "required": false
+    },
+    "TESTMODE": {
+      "description": "idk",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }]
+}
