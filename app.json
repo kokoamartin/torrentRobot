@@ -24,11 +24,12 @@
       "value": ""
     },
     "EVERYONE_CHATS": {
-      "description": "...Tic Tic",
+      "description": "Other People/groups id Where it will work,Use @missrose_bot ",
       "value": ""
+      "required": false
     },
     "ADMIN_CHATS": {
-      "description": "Owner Telegram Chat-IDs",
+      "description": "Owner Telegram Chat-IDs Use @missrose_bot",
       "value": ""
     },
     "MAGNET_TIMEOUT": {
@@ -42,7 +43,7 @@
       "required": false
     },
     "TESTMODE": {
-      "description": "idk",
+      "description": "Leave it empty unless you know what are you doing",
       "value": ""
     }
   },
