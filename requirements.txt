@@ -1,5 +1,6 @@
 feedparser
-https://github.com/prgofficial/pyrogram/archive/asyncio.zip
+pyrogram
+asyncio
 tgcrypto
 natsort
 aiohttp
