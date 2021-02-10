@@ -25,7 +25,7 @@
     },
     "EVERYONE_CHATS": {
       "description": "Other People/groups id Where it will work,Use @missrose_bot ",
-      "value": ""
+      "value": "",
       "required": false
     },
     "ADMIN_CHATS": {
@@ -44,7 +44,8 @@
     },
     "TESTMODE": {
       "description": "Leave it empty unless you know what are you doing",
-      "value": ""
+      "value": "",
+      "required": false
     }
   },
   "addons": [
